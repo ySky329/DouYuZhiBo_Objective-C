@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  HomeViewController.m
 //  DouYuZhiBo_OC
 //
 //  Created by 夜无眠 on 2019/10/27.
 //  Copyright © 2019 杨乾. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "HomeViewController.h"
 
-@interface ViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation ViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor orangeColor];
 }
 
 

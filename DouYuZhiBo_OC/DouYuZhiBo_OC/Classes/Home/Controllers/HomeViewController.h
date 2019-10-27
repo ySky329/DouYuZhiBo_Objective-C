@@ -1,5 +1,5 @@
 //
-//  SceneDelegate.h
+//  HomeViewController.h
 //  DouYuZhiBo_OC
 //
 //  Created by 夜无眠 on 2019/10/27.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow * window;
+@interface HomeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
