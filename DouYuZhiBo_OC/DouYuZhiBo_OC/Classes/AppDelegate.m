@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "HomeViewController.h"
+#import "MainViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,8 +18,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    [UITabBar appearance].tintColor = [UIColor orangeColor];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    HomeViewController * homeVC = [[HomeViewController alloc] init];
+    UIStoryboard * homeStoryboard = [UIStoryboard storyboardWithName:@"MainViewController" bundle:nil];
+    MainViewController * homeVC =  [homeStoryboard instantiateInitialViewController];
+    
+//    HomeViewController * homeVC = [[HomeViewController alloc] init];
     self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
     

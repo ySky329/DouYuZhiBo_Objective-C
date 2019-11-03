@@ -2,7 +2,7 @@
 //  HomeViewController.m
 //  DouYuZhiBo_OC
 //
-//  Created by 夜无眠 on 2019/10/27.
+//  Created by 夜无眠 on 2019/11/3.
 //  Copyright © 2019 杨乾. All rights reserved.
 //
 
@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 

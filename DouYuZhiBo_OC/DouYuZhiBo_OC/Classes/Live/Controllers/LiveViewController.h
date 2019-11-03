@@ -1,5 +1,5 @@
 //
-//  HomeViewController.h
+//  LiveViewController.h
 //  DouYuZhiBo_OC
 //
 //  Created by 夜无眠 on 2019/11/3.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HomeViewController : UIViewController
+@interface LiveViewController : UIViewController
 
 @end
 

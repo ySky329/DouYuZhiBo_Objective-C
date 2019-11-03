@@ -11,7 +11,16 @@
 		5669B75323654AB8000F04EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5669B75223654AB8000F04EF /* Assets.xcassets */; };
 		5669B75623654AB8000F04EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B75423654AB8000F04EF /* LaunchScreen.storyboard */; };
 		5669B75923654AB8000F04EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B75823654AB8000F04EF /* main.m */; };
-		5669B778236551A1000F04EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B777236551A1000F04EF /* HomeViewController.m */; };
+		5669B778236551A1000F04EF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B777236551A1000F04EF /* MainViewController.m */; };
+		5669B77A236E76FF000F04EF /* MainViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B779236E76FF000F04EF /* MainViewController.storyboard */; };
+		5669B77C236E916C000F04EF /* HomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B77B236E916C000F04EF /* HomeViewController.storyboard */; };
+		5669B77E236E91AA000F04EF /* LiveViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B77D236E91AA000F04EF /* LiveViewController.storyboard */; };
+		5669B780236E9276000F04EF /* FollowViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B77F236E9276000F04EF /* FollowViewController.storyboard */; };
+		5669B782236E92E5000F04EF /* ProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B781236E92E5000F04EF /* ProfileViewController.storyboard */; };
+		5669B785236E9372000F04EF /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B784236E9372000F04EF /* HomeViewController.m */; };
+		5669B788236E93B2000F04EF /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B787236E93B2000F04EF /* FollowViewController.m */; };
+		5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78A236E942B000F04EF /* ProfileViewController.m */; };
+		5669B78E236E9460000F04EF /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78D236E9460000F04EF /* LiveViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +31,21 @@
 		5669B75523654AB8000F04EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5669B75723654AB8000F04EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5669B75823654AB8000F04EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5669B776236551A1000F04EF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
-		5669B777236551A1000F04EF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5669B776236551A1000F04EF /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5669B777236551A1000F04EF /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5669B779236E76FF000F04EF /* MainViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainViewController.storyboard; sourceTree = "<group>"; };
+		5669B77B236E916C000F04EF /* HomeViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HomeViewController.storyboard; path = DouYuZhiBo_OC/Classes/Home/Controllers/HomeViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		5669B77D236E91AA000F04EF /* LiveViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LiveViewController.storyboard; path = DouYuZhiBo_OC/Classes/Live/Controllers/LiveViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		5669B77F236E9276000F04EF /* FollowViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FollowViewController.storyboard; path = DouYuZhiBo_OC/Classes/Follow/Controllers/FollowViewController.storyboard; sourceTree = SOURCE_ROOT; };
+		5669B781236E92E5000F04EF /* ProfileViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ProfileViewController.storyboard; sourceTree = "<group>"; };
+		5669B783236E9372000F04EF /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		5669B784236E9372000F04EF /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		5669B786236E93B2000F04EF /* FollowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FollowViewController.h; sourceTree = "<group>"; };
+		5669B787236E93B2000F04EF /* FollowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FollowViewController.m; sourceTree = "<group>"; };
+		5669B789236E942B000F04EF /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		5669B78A236E942B000F04EF /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		5669B78C236E9460000F04EF /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		5669B78D236E9460000F04EF /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,8 +90,8 @@
 				5669B74723654AB7000F04EF /* AppDelegate.m */,
 				5669B7602365503B000F04EF /* Main */,
 				5669B76123655044000F04EF /* Home */,
-				5669B76423655067000F04EF /* Follow */,
 				5669B7622365504D000F04EF /* Live */,
+				5669B76423655067000F04EF /* Follow */,
 				5669B76323655057000F04EF /* Profile */,
 				5669B7652365508A000F04EF /* Others */,
 			);
@@ -79,6 +101,9 @@
 		5669B7602365503B000F04EF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				5669B776236551A1000F04EF /* MainViewController.h */,
+				5669B777236551A1000F04EF /* MainViewController.m */,
+				5669B779236E76FF000F04EF /* MainViewController.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -155,8 +180,9 @@
 		5669B768236550F1000F04EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				5669B776236551A1000F04EF /* HomeViewController.h */,
-				5669B777236551A1000F04EF /* HomeViewController.m */,
+				5669B783236E9372000F04EF /* HomeViewController.h */,
+				5669B784236E9372000F04EF /* HomeViewController.m */,
+				5669B77B236E916C000F04EF /* HomeViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -171,6 +197,9 @@
 		5669B76A23655124000F04EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5669B786236E93B2000F04EF /* FollowViewController.h */,
+				5669B787236E93B2000F04EF /* FollowViewController.m */,
+				5669B77F236E9276000F04EF /* FollowViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -199,6 +228,9 @@
 		5669B76E23655131000F04EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5669B78C236E9460000F04EF /* LiveViewController.h */,
+				5669B78D236E9460000F04EF /* LiveViewController.m */,
+				5669B77D236E91AA000F04EF /* LiveViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -234,6 +266,9 @@
 		5669B77323655155000F04EF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				5669B789236E942B000F04EF /* ProfileViewController.h */,
+				5669B78A236E942B000F04EF /* ProfileViewController.m */,
+				5669B781236E92E5000F04EF /* ProfileViewController.storyboard */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -309,8 +344,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5669B77C236E916C000F04EF /* HomeViewController.storyboard in Resources */,
+				5669B782236E92E5000F04EF /* ProfileViewController.storyboard in Resources */,
 				5669B75623654AB8000F04EF /* LaunchScreen.storyboard in Resources */,
+				5669B780236E9276000F04EF /* FollowViewController.storyboard in Resources */,
 				5669B75323654AB8000F04EF /* Assets.xcassets in Resources */,
+				5669B77E236E91AA000F04EF /* LiveViewController.storyboard in Resources */,
+				5669B77A236E76FF000F04EF /* MainViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +363,11 @@
 			files = (
 				5669B74823654AB7000F04EF /* AppDelegate.m in Sources */,
 				5669B75923654AB8000F04EF /* main.m in Sources */,
-				5669B778236551A1000F04EF /* HomeViewController.m in Sources */,
+				5669B788236E93B2000F04EF /* FollowViewController.m in Sources */,
+				5669B778236551A1000F04EF /* MainViewController.m in Sources */,
+				5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */,
+				5669B785236E9372000F04EF /* HomeViewController.m in Sources */,
+				5669B78E236E9460000F04EF /* LiveViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  HomeViewController.h
 //  DouYuZhiBo_OC
 //
-//  Created by 夜无眠 on 2019/11/3.
+//  Created by 夜无眠 on 2019/10/27.
 //  Copyright © 2019 杨乾. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HomeViewController : UIViewController
+@interface MainViewController : UITabBarController
 
 @end
 
