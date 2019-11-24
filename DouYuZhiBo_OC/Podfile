@@ -1,0 +1,8 @@
+
+platform :ios, '9.0'
+#use_frameworks!
+target 'DouYuZhiBo_OC' do
+     pod 'AFNetworking'
+     pod 'MJExtension'
+     pod 'SDWebImage'
+end

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		565D42D72389233500AD848E /* YQCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D42D52389233500AD848E /* YQCollectionHeaderView.m */; };
+		565D42D82389233500AD848E /* YQCollectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565D42D62389233500AD848E /* YQCollectionHeaderView.xib */; };
+		565D42DC238927B100AD848E /* YQNormalCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D42DB238927B100AD848E /* YQNormalCollectionViewCell.m */; };
+		565D42DE238927CF00AD848E /* YQNormalCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565D42DD238927CF00AD848E /* YQNormalCollectionViewCell.xib */; };
+		565D42E223892D3400AD848E /* YQPrettyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D42E023892D3400AD848E /* YQPrettyCollectionViewCell.m */; };
+		565D42E323892D3400AD848E /* YQPrettyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 565D42E123892D3400AD848E /* YQPrettyCollectionViewCell.xib */; };
+		565D42E6238A245D00AD848E /* YQNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 565D42E5238A245D00AD848E /* YQNetworkManager.m */; };
 		5669B74823654AB7000F04EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B74723654AB7000F04EF /* AppDelegate.m */; };
 		5669B75323654AB8000F04EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5669B75223654AB8000F04EF /* Assets.xcassets */; };
 		5669B75623654AB8000F04EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5669B75423654AB8000F04EF /* LaunchScreen.storyboard */; };
@@ -21,9 +28,32 @@
 		5669B788236E93B2000F04EF /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B787236E93B2000F04EF /* FollowViewController.m */; };
 		5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78A236E942B000F04EF /* ProfileViewController.m */; };
 		5669B78E236E9460000F04EF /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78D236E9460000F04EF /* LiveViewController.m */; };
+		56A02E012376596A008B0413 /* YQHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E002376596A008B0413 /* YQHomeTopView.m */; };
+		56A02E0423766C10008B0413 /* YQHomeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E0323766C10008B0413 /* YQHomeContentView.m */; };
+		56A02E072377AA51008B0413 /* YQRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E062377AA51008B0413 /* YQRecommentViewController.m */; };
+		56A02E0A2377AA6F008B0413 /* YQGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E092377AA6F008B0413 /* YQGameViewController.m */; };
+		56A02E0D2377AAB8008B0413 /* YQAmusementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E0C2377AAB8008B0413 /* YQAmusementViewController.m */; };
+		56A02E102377AAC5008B0413 /* YQFunnyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E0F2377AAC5008B0413 /* YQFunnyViewController.m */; };
+		56A02E132377B1AB008B0413 /* UIColor+YQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E122377B1AB008B0413 /* UIColor+YQExtension.m */; };
+		56F8E5FB23704DEA00B704AE /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8E5FA23704DEA00B704AE /* UIBarButtonItem+Extension.m */; };
+		56F8E5FF2371AB7D00B704AE /* YQConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 56F8E5FE2371AB7D00B704AE /* YQConst.m */; };
+		AB415654EED49FF6CECE72A9 /* libPods-DouYuZhiBo_OC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31D5578A2BBB4E7BC5134E31 /* libPods-DouYuZhiBo_OC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31D5578A2BBB4E7BC5134E31 /* libPods-DouYuZhiBo_OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DouYuZhiBo_OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CD3E0B4E55523E49016AF1F /* Pods-DouYuZhiBo_OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZhiBo_OC.debug.xcconfig"; path = "Target Support Files/Pods-DouYuZhiBo_OC/Pods-DouYuZhiBo_OC.debug.xcconfig"; sourceTree = "<group>"; };
+		565D42D42389233500AD848E /* YQCollectionHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCollectionHeaderView.h; sourceTree = "<group>"; };
+		565D42D52389233500AD848E /* YQCollectionHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCollectionHeaderView.m; sourceTree = "<group>"; };
+		565D42D62389233500AD848E /* YQCollectionHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQCollectionHeaderView.xib; sourceTree = "<group>"; };
+		565D42DA238927B100AD848E /* YQNormalCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNormalCollectionViewCell.h; sourceTree = "<group>"; };
+		565D42DB238927B100AD848E /* YQNormalCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNormalCollectionViewCell.m; sourceTree = "<group>"; };
+		565D42DD238927CF00AD848E /* YQNormalCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQNormalCollectionViewCell.xib; sourceTree = "<group>"; };
+		565D42DF23892D3400AD848E /* YQPrettyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQPrettyCollectionViewCell.h; sourceTree = "<group>"; };
+		565D42E023892D3400AD848E /* YQPrettyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQPrettyCollectionViewCell.m; sourceTree = "<group>"; };
+		565D42E123892D3400AD848E /* YQPrettyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQPrettyCollectionViewCell.xib; sourceTree = "<group>"; };
+		565D42E4238A245D00AD848E /* YQNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQNetworkManager.h; sourceTree = "<group>"; };
+		565D42E5238A245D00AD848E /* YQNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQNetworkManager.m; sourceTree = "<group>"; };
 		5669B74323654AB7000F04EF /* DouYuZhiBo_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5669B74623654AB7000F04EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5669B74723654AB7000F04EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +76,26 @@
 		5669B78A236E942B000F04EF /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		5669B78C236E9460000F04EF /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
 		5669B78D236E9460000F04EF /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		56A02DFF2376596A008B0413 /* YQHomeTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeTopView.h; sourceTree = "<group>"; };
+		56A02E002376596A008B0413 /* YQHomeTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeTopView.m; sourceTree = "<group>"; };
+		56A02E0223766C10008B0413 /* YQHomeContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeContentView.h; sourceTree = "<group>"; };
+		56A02E0323766C10008B0413 /* YQHomeContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeContentView.m; sourceTree = "<group>"; };
+		56A02E052377AA51008B0413 /* YQRecommentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecommentViewController.h; sourceTree = "<group>"; };
+		56A02E062377AA51008B0413 /* YQRecommentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecommentViewController.m; sourceTree = "<group>"; };
+		56A02E082377AA6F008B0413 /* YQGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGameViewController.h; sourceTree = "<group>"; };
+		56A02E092377AA6F008B0413 /* YQGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGameViewController.m; sourceTree = "<group>"; };
+		56A02E0B2377AAB8008B0413 /* YQAmusementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAmusementViewController.h; sourceTree = "<group>"; };
+		56A02E0C2377AAB8008B0413 /* YQAmusementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAmusementViewController.m; sourceTree = "<group>"; };
+		56A02E0E2377AAC5008B0413 /* YQFunnyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFunnyViewController.h; sourceTree = "<group>"; };
+		56A02E0F2377AAC5008B0413 /* YQFunnyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFunnyViewController.m; sourceTree = "<group>"; };
+		56A02E112377B1AB008B0413 /* UIColor+YQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+YQExtension.h"; sourceTree = "<group>"; };
+		56A02E122377B1AB008B0413 /* UIColor+YQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YQExtension.m"; sourceTree = "<group>"; };
+		56F8E5F923704DEA00B704AE /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		56F8E5FA23704DEA00B704AE /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		56F8E5FD2371AB7D00B704AE /* YQConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQConst.h; sourceTree = "<group>"; };
+		56F8E5FE2371AB7D00B704AE /* YQConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQConst.m; sourceTree = "<group>"; };
+		56F8E6002371C28A00B704AE /* DouYuZhiBo_OC.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DouYuZhiBo_OC.pch; sourceTree = "<group>"; };
+		A4C9A9BA7C9F0C1B668DB84E /* Pods-DouYuZhiBo_OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DouYuZhiBo_OC.release.xcconfig"; path = "Target Support Files/Pods-DouYuZhiBo_OC/Pods-DouYuZhiBo_OC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,17 +103,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB415654EED49FF6CECE72A9 /* libPods-DouYuZhiBo_OC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		565D42D92389278900AD848E /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				565D42DA238927B100AD848E /* YQNormalCollectionViewCell.h */,
+				565D42DB238927B100AD848E /* YQNormalCollectionViewCell.m */,
+				565D42DD238927CF00AD848E /* YQNormalCollectionViewCell.xib */,
+				565D42DF23892D3400AD848E /* YQPrettyCollectionViewCell.h */,
+				565D42E023892D3400AD848E /* YQPrettyCollectionViewCell.m */,
+				565D42E123892D3400AD848E /* YQPrettyCollectionViewCell.xib */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
 		5669B73A23654AB7000F04EF = {
 			isa = PBXGroup;
 			children = (
 				5669B74523654AB7000F04EF /* DouYuZhiBo_OC */,
 				5669B74423654AB7000F04EF /* Products */,
+				673B9D00300E0887276B9659 /* Pods */,
+				91D339FC5CAE030701EB6C71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +159,7 @@
 				5669B7622365504D000F04EF /* Live */,
 				5669B76423655067000F04EF /* Follow */,
 				5669B76323655057000F04EF /* Profile */,
+				56F8E5F723704D9800B704AE /* Tools */,
 				5669B7652365508A000F04EF /* Others */,
 			);
 			path = Classes;
@@ -101,6 +168,7 @@
 		5669B7602365503B000F04EF /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				565D42D92389278900AD848E /* CommonView */,
 				5669B776236551A1000F04EF /* MainViewController.h */,
 				5669B777236551A1000F04EF /* MainViewController.m */,
 				5669B779236E76FF000F04EF /* MainViewController.storyboard */,
@@ -173,6 +241,13 @@
 		5669B767236550F1000F04EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				56A02DFF2376596A008B0413 /* YQHomeTopView.h */,
+				56A02E002376596A008B0413 /* YQHomeTopView.m */,
+				56A02E0223766C10008B0413 /* YQHomeContentView.h */,
+				56A02E0323766C10008B0413 /* YQHomeContentView.m */,
+				565D42D42389233500AD848E /* YQCollectionHeaderView.h */,
+				565D42D52389233500AD848E /* YQCollectionHeaderView.m */,
+				565D42D62389233500AD848E /* YQCollectionHeaderView.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +258,14 @@
 				5669B783236E9372000F04EF /* HomeViewController.h */,
 				5669B784236E9372000F04EF /* HomeViewController.m */,
 				5669B77B236E916C000F04EF /* HomeViewController.storyboard */,
+				56A02E052377AA51008B0413 /* YQRecommentViewController.h */,
+				56A02E062377AA51008B0413 /* YQRecommentViewController.m */,
+				56A02E082377AA6F008B0413 /* YQGameViewController.h */,
+				56A02E092377AA6F008B0413 /* YQGameViewController.m */,
+				56A02E0B2377AAB8008B0413 /* YQAmusementViewController.h */,
+				56A02E0C2377AAB8008B0413 /* YQAmusementViewController.m */,
+				56A02E0E2377AAC5008B0413 /* YQFunnyViewController.h */,
+				56A02E0F2377AAC5008B0413 /* YQFunnyViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -287,6 +370,55 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		56F8E5F723704D9800B704AE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				56F8E5FC2371AB4000B704AE /* Common */,
+				56F8E5F823704DAD00B704AE /* Categorys */,
+				565D42E4238A245D00AD848E /* YQNetworkManager.h */,
+				565D42E5238A245D00AD848E /* YQNetworkManager.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		56F8E5F823704DAD00B704AE /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				56F8E5F923704DEA00B704AE /* UIBarButtonItem+Extension.h */,
+				56F8E5FA23704DEA00B704AE /* UIBarButtonItem+Extension.m */,
+				56A02E112377B1AB008B0413 /* UIColor+YQExtension.h */,
+				56A02E122377B1AB008B0413 /* UIColor+YQExtension.m */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		56F8E5FC2371AB4000B704AE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				56F8E5FD2371AB7D00B704AE /* YQConst.h */,
+				56F8E5FE2371AB7D00B704AE /* YQConst.m */,
+				56F8E6002371C28A00B704AE /* DouYuZhiBo_OC.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		673B9D00300E0887276B9659 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CD3E0B4E55523E49016AF1F /* Pods-DouYuZhiBo_OC.debug.xcconfig */,
+				A4C9A9BA7C9F0C1B668DB84E /* Pods-DouYuZhiBo_OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91D339FC5CAE030701EB6C71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31D5578A2BBB4E7BC5134E31 /* libPods-DouYuZhiBo_OC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -294,6 +426,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5669B75C23654AB8000F04EF /* Build configuration list for PBXNativeTarget "DouYuZhiBo_OC" */;
 			buildPhases = (
+				F0FB830FF738510285743FD3 /* [CP] Check Pods Manifest.lock */,
 				5669B73F23654AB7000F04EF /* Sources */,
 				5669B74023654AB7000F04EF /* Frameworks */,
 				5669B74123654AB7000F04EF /* Resources */,
@@ -313,6 +446,7 @@
 		5669B73B23654AB7000F04EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YQ;
 				LastUpgradeCheck = 1110;
 				ORGANIZATIONNAME = "杨乾";
 				TargetAttributes = {
@@ -344,11 +478,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				565D42E323892D3400AD848E /* YQPrettyCollectionViewCell.xib in Resources */,
 				5669B77C236E916C000F04EF /* HomeViewController.storyboard in Resources */,
 				5669B782236E92E5000F04EF /* ProfileViewController.storyboard in Resources */,
 				5669B75623654AB8000F04EF /* LaunchScreen.storyboard in Resources */,
 				5669B780236E9276000F04EF /* FollowViewController.storyboard in Resources */,
+				565D42DE238927CF00AD848E /* YQNormalCollectionViewCell.xib in Resources */,
 				5669B75323654AB8000F04EF /* Assets.xcassets in Resources */,
+				565D42D82389233500AD848E /* YQCollectionHeaderView.xib in Resources */,
 				5669B77E236E91AA000F04EF /* LiveViewController.storyboard in Resources */,
 				5669B77A236E76FF000F04EF /* MainViewController.storyboard in Resources */,
 			);
@@ -356,18 +493,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F0FB830FF738510285743FD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DouYuZhiBo_OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5669B73F23654AB7000F04EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56A02E0D2377AAB8008B0413 /* YQAmusementViewController.m in Sources */,
 				5669B74823654AB7000F04EF /* AppDelegate.m in Sources */,
 				5669B75923654AB8000F04EF /* main.m in Sources */,
+				565D42D72389233500AD848E /* YQCollectionHeaderView.m in Sources */,
 				5669B788236E93B2000F04EF /* FollowViewController.m in Sources */,
+				565D42E223892D3400AD848E /* YQPrettyCollectionViewCell.m in Sources */,
+				56A02E102377AAC5008B0413 /* YQFunnyViewController.m in Sources */,
 				5669B778236551A1000F04EF /* MainViewController.m in Sources */,
+				565D42DC238927B100AD848E /* YQNormalCollectionViewCell.m in Sources */,
+				56F8E5FB23704DEA00B704AE /* UIBarButtonItem+Extension.m in Sources */,
+				56A02E012376596A008B0413 /* YQHomeTopView.m in Sources */,
+				56F8E5FF2371AB7D00B704AE /* YQConst.m in Sources */,
+				56A02E0A2377AA6F008B0413 /* YQGameViewController.m in Sources */,
+				56A02E0423766C10008B0413 /* YQHomeContentView.m in Sources */,
 				5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */,
+				56A02E072377AA51008B0413 /* YQRecommentViewController.m in Sources */,
+				565D42E6238A245D00AD848E /* YQNetworkManager.m in Sources */,
 				5669B785236E9372000F04EF /* HomeViewController.m in Sources */,
 				5669B78E236E9460000F04EF /* LiveViewController.m in Sources */,
+				56A02E132377B1AB008B0413 /* UIColor+YQExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,12 +672,14 @@
 		};
 		5669B75D23654AB8000F04EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD3E0B4E55523E49016AF1F /* Pods-DouYuZhiBo_OC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 648N73SCMH;
+				GCC_PREFIX_HEADER = DouYuZhiBo_OC/Classes/Tools/Common/DouYuZhiBo_OC.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/DouYuZhiBo_OC/Classes/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -518,12 +695,14 @@
 		};
 		5669B75E23654AB8000F04EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C9A9BA7C9F0C1B668DB84E /* Pods-DouYuZhiBo_OC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 648N73SCMH;
+				GCC_PREFIX_HEADER = DouYuZhiBo_OC/Classes/Tools/Common/DouYuZhiBo_OC.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/DouYuZhiBo_OC/Classes/Others/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

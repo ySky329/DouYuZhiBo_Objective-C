@@ -8,6 +8,7 @@
 
 #import "MainViewController.h"
 
+
 @interface MainViewController ()
 
 @end
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor orangeColor];
+
+    self.tabBar.tintColor = [UIColor orangeColor];
 }
 
 

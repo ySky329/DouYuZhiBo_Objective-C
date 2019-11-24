@@ -17,9 +17,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    [UITabBar appearance].tintColor = [UIColor orangeColor];
-    
+        
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     UIStoryboard * homeStoryboard = [UIStoryboard storyboardWithName:@"MainViewController" bundle:nil];
     MainViewController * homeVC =  [homeStoryboard instantiateInitialViewController];

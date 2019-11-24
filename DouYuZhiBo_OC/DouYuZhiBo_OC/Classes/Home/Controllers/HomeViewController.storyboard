@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--首页-->
+        <!--Home View Controller-->
         <scene sceneID="sSr-JI-Io6">
             <objects>
                 <viewController id="92g-M4-u7T" customClass="HomeViewController" sceneMemberID="viewController">
@@ -18,7 +18,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="jUe-LE-JRX"/>
                     </view>
-                    <navigationItem key="navigationItem" title="首页" id="EhM-nz-Qpu"/>
+                    <navigationItem key="navigationItem" id="EhM-nz-Qpu"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Opd-qZ-kUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

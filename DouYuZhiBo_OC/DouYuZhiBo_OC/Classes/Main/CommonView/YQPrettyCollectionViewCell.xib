@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YQPrettyCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="197" height="231"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="197" height="231"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eLQ-gi-bCn">
+                        <rect key="frame" x="0.0" y="207" width="55" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="55" id="02t-XG-IPh"/>
+                            <constraint firstAttribute="height" constant="14" id="bTL-z2-1Zq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="3" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="广州市" image="dyla_ico_location">
+                            <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="斗鱼直播" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glC-Dq-WfX">
+                        <rect key="frame" x="0.0" y="186" width="197" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="7D4-WX-dXF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="live_cell_default_phone" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-60-DMM">
+                        <rect key="frame" x="0.0" y="0.0" width="197" height="181"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="666在线" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mzB-7n-Bgw">
+                        <rect key="frame" x="132" y="5" width="60" height="14"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="AP7-ZG-EJi"/>
+                            <constraint firstAttribute="width" constant="60" id="Zi3-yx-xVX"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="3"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="KXD-60-DMM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A7p-Gs-iV5"/>
+                <constraint firstAttribute="bottom" secondItem="eLQ-gi-bCn" secondAttribute="bottom" constant="10" id="JTc-7o-O1W"/>
+                <constraint firstItem="eLQ-gi-bCn" firstAttribute="top" secondItem="glC-Dq-WfX" secondAttribute="bottom" constant="6" id="KWs-tr-Ok5"/>
+                <constraint firstItem="eLQ-gi-bCn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="NKo-1F-MZe"/>
+                <constraint firstItem="glC-Dq-WfX" firstAttribute="top" secondItem="KXD-60-DMM" secondAttribute="bottom" constant="5" id="NvE-lx-atJ"/>
+                <constraint firstAttribute="trailing" secondItem="KXD-60-DMM" secondAttribute="trailing" id="O88-7m-kfF"/>
+                <constraint firstItem="KXD-60-DMM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Xla-o9-rXa"/>
+                <constraint firstAttribute="trailing" secondItem="glC-Dq-WfX" secondAttribute="trailing" id="bsQ-0i-ZVm"/>
+                <constraint firstItem="glC-Dq-WfX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="cU2-Tj-JgL"/>
+                <constraint firstItem="mzB-7n-Bgw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="g8U-KI-1Gt"/>
+                <constraint firstAttribute="trailing" secondItem="mzB-7n-Bgw" secondAttribute="trailing" constant="5" id="wy4-UY-o6R"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <size key="customSize" width="197" height="231"/>
+            <point key="canvasLocation" x="139.85507246376812" y="85.379464285714278"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="dyla_ico_location" width="12" height="12"/>
+        <image name="live_cell_default_phone" width="103.5" height="103.5"/>
+    </resources>
+</document>
