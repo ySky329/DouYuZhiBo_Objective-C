@@ -28,6 +28,43 @@
 		5669B788236E93B2000F04EF /* FollowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B787236E93B2000F04EF /* FollowViewController.m */; };
 		5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78A236E942B000F04EF /* ProfileViewController.m */; };
 		5669B78E236E9460000F04EF /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5669B78D236E9460000F04EF /* LiveViewController.m */; };
+		5689C88123ADC40300E34D4D /* NSArray+YQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C87D23ADC40300E34D4D /* NSArray+YQLog.m */; };
+		5689C88223ADC40300E34D4D /* NSDictionary+YQLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C87F23ADC40300E34D4D /* NSDictionary+YQLog.m */; };
+		5689C8B223B84A1100E34D4D /* YQRecommentCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8B123B84A1100E34D4D /* YQRecommentCycleView.m */; };
+		5689C8B423B84A3D00E34D4D /* YQRecommentCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5689C8B323B84A3D00E34D4D /* YQRecommentCycleView.xib */; };
+		5689C8B723B8F0EC00E34D4D /* UIView+YQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8B623B8F0EC00E34D4D /* UIView+YQExtension.m */; };
+		5689C8BA23C02B0600E34D4D /* YQCycleModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8B923C02B0600E34D4D /* YQCycleModal.m */; };
+		5689C8BE23C0391E00E34D4D /* YQCycleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8BC23C0391E00E34D4D /* YQCycleViewCell.m */; };
+		5689C8BF23C0391E00E34D4D /* YQCycleViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5689C8BD23C0391E00E34D4D /* YQCycleViewCell.xib */; };
+		5689C8C223C0D1AE00E34D4D /* YQRecommentHeaderGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8C123C0D1AE00E34D4D /* YQRecommentHeaderGameView.m */; };
+		5689C8C423C0D1BE00E34D4D /* YQRecommentHeaderGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5689C8C323C0D1BE00E34D4D /* YQRecommentHeaderGameView.xib */; };
+		5689C8C823C0D2CA00E34D4D /* YQRecommentGameViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5689C8C623C0D2CA00E34D4D /* YQRecommentGameViewCell.m */; };
+		5689C8C923C0D2CA00E34D4D /* YQRecommentGameViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5689C8C723C0D2CA00E34D4D /* YQRecommentGameViewCell.xib */; };
+		568A781723EE5EFC003D9B44 /* YQGameViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A781623EE5EFC003D9B44 /* YQGameViewModal.m */; };
+		568A781A23EE615B003D9B44 /* YQGameModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A781923EE615B003D9B44 /* YQGameModal.m */; };
+		568A781D23EE62EF003D9B44 /* YQAnchorBaseModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A781C23EE62EF003D9B44 /* YQAnchorBaseModal.m */; };
+		568A782823EEAC59003D9B44 /* ANEExceptionLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A782223EEAC58003D9B44 /* ANEExceptionLogger.m */; };
+		568A782923EEAC59003D9B44 /* UIDevice+Platform.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A782323EEAC59003D9B44 /* UIDevice+Platform.m */; };
+		568A782A23EEAC59003D9B44 /* ANEException.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A782423EEAC59003D9B44 /* ANEException.m */; };
+		568A782D23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A782C23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.m */; };
+		568A783023F1333A003D9B44 /* YQAmusementViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A782F23F1333A003D9B44 /* YQAmusementViewModal.m */; };
+		568A783323F153B5003D9B44 /* YQHomeBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A783223F153B5003D9B44 /* YQHomeBaseViewController.m */; };
+		568A783723F24F64003D9B44 /* YQAmuseMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A783623F24F64003D9B44 /* YQAmuseMenuView.m */; };
+		568A783923F24F84003D9B44 /* YQAmuseMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568A783823F24F84003D9B44 /* YQAmuseMenuView.xib */; };
+		568A783D23F257A7003D9B44 /* YQAmuseMenuViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A783B23F257A7003D9B44 /* YQAmuseMenuViewCell.m */; };
+		568A783E23F257A7003D9B44 /* YQAmuseMenuViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568A783C23F257A7003D9B44 /* YQAmuseMenuViewCell.xib */; };
+		568A784123F7BA92003D9B44 /* YQFunnyViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A784023F7BA92003D9B44 /* YQFunnyViewModal.m */; };
+		568A784423F7BF2F003D9B44 /* YQHomeAnimateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A784323F7BF2F003D9B44 /* YQHomeAnimateViewController.m */; };
+		568A784723FB8BE5003D9B44 /* YQRoomPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A784623FB8BE5003D9B44 /* YQRoomPresentViewController.m */; };
+		568A784A23FB8BF5003D9B44 /* YQRoomPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A784923FB8BF5003D9B44 /* YQRoomPushViewController.m */; };
+		568A784D23FB99CA003D9B44 /* YQBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 568A784C23FB99CA003D9B44 /* YQBaseNavigationController.m */; };
+		569B0179239B4E89008D1223 /* NSMutableArray+YQCrashExtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B0178239B4E89008D1223 /* NSMutableArray+YQCrashExtection.m */; };
+		569B017C239B55BB008D1223 /* YQUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B017B239B55BB008D1223 /* YQUncaughtExceptionHandler.m */; };
+		569B017F23A5E047008D1223 /* YQRecommentViewModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B017E23A5E047008D1223 /* YQRecommentViewModal.m */; };
+		569B018223A5E1E7008D1223 /* NSDate+YQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B018123A5E1E7008D1223 /* NSDate+YQExtension.m */; };
+		569B018523A5E7A8008D1223 /* YQAnchorGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B018423A5E7A8008D1223 /* YQAnchorGroup.m */; };
+		569B018823A625AA008D1223 /* YQAnchor.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B018723A625AA008D1223 /* YQAnchor.m */; };
+		569B018B23A641EF008D1223 /* YQCollectionBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 569B018A23A641EF008D1223 /* YQCollectionBaseCell.m */; };
 		56A02E012376596A008B0413 /* YQHomeTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E002376596A008B0413 /* YQHomeTopView.m */; };
 		56A02E0423766C10008B0413 /* YQHomeContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E0323766C10008B0413 /* YQHomeContentView.m */; };
 		56A02E072377AA51008B0413 /* YQRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A02E062377AA51008B0413 /* YQRecommentViewController.m */; };
@@ -76,6 +113,75 @@
 		5669B78A236E942B000F04EF /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		5669B78C236E9460000F04EF /* LiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
 		5669B78D236E9460000F04EF /* LiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		5689C87D23ADC40300E34D4D /* NSArray+YQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+YQLog.m"; sourceTree = "<group>"; };
+		5689C87E23ADC40300E34D4D /* NSDictionary+YQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+YQLog.h"; sourceTree = "<group>"; };
+		5689C87F23ADC40300E34D4D /* NSDictionary+YQLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+YQLog.m"; sourceTree = "<group>"; };
+		5689C88023ADC40300E34D4D /* NSArray+YQLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+YQLog.h"; sourceTree = "<group>"; };
+		5689C8B023B84A1100E34D4D /* YQRecommentCycleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecommentCycleView.h; sourceTree = "<group>"; };
+		5689C8B123B84A1100E34D4D /* YQRecommentCycleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecommentCycleView.m; sourceTree = "<group>"; };
+		5689C8B323B84A3D00E34D4D /* YQRecommentCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQRecommentCycleView.xib; sourceTree = "<group>"; };
+		5689C8B523B8F0EC00E34D4D /* UIView+YQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YQExtension.h"; sourceTree = "<group>"; };
+		5689C8B623B8F0EC00E34D4D /* UIView+YQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YQExtension.m"; sourceTree = "<group>"; };
+		5689C8B823C02B0600E34D4D /* YQCycleModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCycleModal.h; sourceTree = "<group>"; };
+		5689C8B923C02B0600E34D4D /* YQCycleModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCycleModal.m; sourceTree = "<group>"; };
+		5689C8BB23C0391E00E34D4D /* YQCycleViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCycleViewCell.h; sourceTree = "<group>"; };
+		5689C8BC23C0391E00E34D4D /* YQCycleViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCycleViewCell.m; sourceTree = "<group>"; };
+		5689C8BD23C0391E00E34D4D /* YQCycleViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQCycleViewCell.xib; sourceTree = "<group>"; };
+		5689C8C023C0D1AE00E34D4D /* YQRecommentHeaderGameView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecommentHeaderGameView.h; sourceTree = "<group>"; };
+		5689C8C123C0D1AE00E34D4D /* YQRecommentHeaderGameView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecommentHeaderGameView.m; sourceTree = "<group>"; };
+		5689C8C323C0D1BE00E34D4D /* YQRecommentHeaderGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQRecommentHeaderGameView.xib; sourceTree = "<group>"; };
+		5689C8C523C0D2CA00E34D4D /* YQRecommentGameViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecommentGameViewCell.h; sourceTree = "<group>"; };
+		5689C8C623C0D2CA00E34D4D /* YQRecommentGameViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecommentGameViewCell.m; sourceTree = "<group>"; };
+		5689C8C723C0D2CA00E34D4D /* YQRecommentGameViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQRecommentGameViewCell.xib; sourceTree = "<group>"; };
+		568A781523EE5EFC003D9B44 /* YQGameViewModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGameViewModal.h; sourceTree = "<group>"; };
+		568A781623EE5EFC003D9B44 /* YQGameViewModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGameViewModal.m; sourceTree = "<group>"; };
+		568A781823EE615B003D9B44 /* YQGameModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQGameModal.h; sourceTree = "<group>"; };
+		568A781923EE615B003D9B44 /* YQGameModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQGameModal.m; sourceTree = "<group>"; };
+		568A781B23EE62EF003D9B44 /* YQAnchorBaseModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnchorBaseModal.h; sourceTree = "<group>"; };
+		568A781C23EE62EF003D9B44 /* YQAnchorBaseModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAnchorBaseModal.m; sourceTree = "<group>"; };
+		568A782223EEAC58003D9B44 /* ANEExceptionLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEExceptionLogger.m; sourceTree = "<group>"; };
+		568A782323EEAC59003D9B44 /* UIDevice+Platform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Platform.m"; sourceTree = "<group>"; };
+		568A782423EEAC59003D9B44 /* ANEException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANEException.m; sourceTree = "<group>"; };
+		568A782523EEAC59003D9B44 /* UIDevice+Platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Platform.h"; sourceTree = "<group>"; };
+		568A782623EEAC59003D9B44 /* ANEExceptionLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEExceptionLogger.h; sourceTree = "<group>"; };
+		568A782723EEAC59003D9B44 /* ANEException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANEException.h; sourceTree = "<group>"; };
+		568A782B23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHeaderGameDataModalSingle.h; sourceTree = "<group>"; };
+		568A782C23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHeaderGameDataModalSingle.m; sourceTree = "<group>"; };
+		568A782E23F1333A003D9B44 /* YQAmusementViewModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAmusementViewModal.h; sourceTree = "<group>"; };
+		568A782F23F1333A003D9B44 /* YQAmusementViewModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAmusementViewModal.m; sourceTree = "<group>"; };
+		568A783123F153B5003D9B44 /* YQHomeBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeBaseViewController.h; sourceTree = "<group>"; };
+		568A783223F153B5003D9B44 /* YQHomeBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeBaseViewController.m; sourceTree = "<group>"; };
+		568A783523F24F64003D9B44 /* YQAmuseMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAmuseMenuView.h; sourceTree = "<group>"; };
+		568A783623F24F64003D9B44 /* YQAmuseMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAmuseMenuView.m; sourceTree = "<group>"; };
+		568A783823F24F84003D9B44 /* YQAmuseMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQAmuseMenuView.xib; sourceTree = "<group>"; };
+		568A783A23F257A7003D9B44 /* YQAmuseMenuViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAmuseMenuViewCell.h; sourceTree = "<group>"; };
+		568A783B23F257A7003D9B44 /* YQAmuseMenuViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAmuseMenuViewCell.m; sourceTree = "<group>"; };
+		568A783C23F257A7003D9B44 /* YQAmuseMenuViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YQAmuseMenuViewCell.xib; sourceTree = "<group>"; };
+		568A783F23F7BA92003D9B44 /* YQFunnyViewModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQFunnyViewModal.h; sourceTree = "<group>"; };
+		568A784023F7BA92003D9B44 /* YQFunnyViewModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQFunnyViewModal.m; sourceTree = "<group>"; };
+		568A784223F7BF2F003D9B44 /* YQHomeAnimateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeAnimateViewController.h; sourceTree = "<group>"; };
+		568A784323F7BF2F003D9B44 /* YQHomeAnimateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeAnimateViewController.m; sourceTree = "<group>"; };
+		568A784523FB8BE5003D9B44 /* YQRoomPresentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRoomPresentViewController.h; sourceTree = "<group>"; };
+		568A784623FB8BE5003D9B44 /* YQRoomPresentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRoomPresentViewController.m; sourceTree = "<group>"; };
+		568A784823FB8BF5003D9B44 /* YQRoomPushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRoomPushViewController.h; sourceTree = "<group>"; };
+		568A784923FB8BF5003D9B44 /* YQRoomPushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRoomPushViewController.m; sourceTree = "<group>"; };
+		568A784B23FB99CA003D9B44 /* YQBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQBaseNavigationController.h; sourceTree = "<group>"; };
+		568A784C23FB99CA003D9B44 /* YQBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQBaseNavigationController.m; sourceTree = "<group>"; };
+		569B0170239688C4008D1223 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		569B0178239B4E89008D1223 /* NSMutableArray+YQCrashExtection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+YQCrashExtection.m"; sourceTree = "<group>"; };
+		569B017A239B55BB008D1223 /* YQUncaughtExceptionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		569B017B239B55BB008D1223 /* YQUncaughtExceptionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQUncaughtExceptionHandler.m; sourceTree = "<group>"; };
+		569B017D23A5E047008D1223 /* YQRecommentViewModal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQRecommentViewModal.h; sourceTree = "<group>"; };
+		569B017E23A5E047008D1223 /* YQRecommentViewModal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQRecommentViewModal.m; sourceTree = "<group>"; };
+		569B018023A5E1E7008D1223 /* NSDate+YQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+YQExtension.h"; sourceTree = "<group>"; };
+		569B018123A5E1E7008D1223 /* NSDate+YQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+YQExtension.m"; sourceTree = "<group>"; };
+		569B018323A5E7A8008D1223 /* YQAnchorGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnchorGroup.h; sourceTree = "<group>"; };
+		569B018423A5E7A8008D1223 /* YQAnchorGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAnchorGroup.m; sourceTree = "<group>"; };
+		569B018623A625AA008D1223 /* YQAnchor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQAnchor.h; sourceTree = "<group>"; };
+		569B018723A625AA008D1223 /* YQAnchor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQAnchor.m; sourceTree = "<group>"; };
+		569B018923A641EF008D1223 /* YQCollectionBaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQCollectionBaseCell.h; sourceTree = "<group>"; };
+		569B018A23A641EF008D1223 /* YQCollectionBaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQCollectionBaseCell.m; sourceTree = "<group>"; };
+		569B018C23A6448B008D1223 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		56A02DFF2376596A008B0413 /* YQHomeTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeTopView.h; sourceTree = "<group>"; };
 		56A02E002376596A008B0413 /* YQHomeTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHomeTopView.m; sourceTree = "<group>"; };
 		56A02E0223766C10008B0413 /* YQHomeContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YQHomeContentView.h; sourceTree = "<group>"; };
@@ -113,6 +219,8 @@
 		565D42D92389278900AD848E /* CommonView */ = {
 			isa = PBXGroup;
 			children = (
+				569B018923A641EF008D1223 /* YQCollectionBaseCell.h */,
+				569B018A23A641EF008D1223 /* YQCollectionBaseCell.m */,
 				565D42DA238927B100AD848E /* YQNormalCollectionViewCell.h */,
 				565D42DB238927B100AD848E /* YQNormalCollectionViewCell.m */,
 				565D42DD238927CF00AD848E /* YQNormalCollectionViewCell.xib */,
@@ -172,6 +280,15 @@
 				5669B776236551A1000F04EF /* MainViewController.h */,
 				5669B777236551A1000F04EF /* MainViewController.m */,
 				5669B779236E76FF000F04EF /* MainViewController.storyboard */,
+				568A784B23FB99CA003D9B44 /* YQBaseNavigationController.h */,
+				568A784C23FB99CA003D9B44 /* YQBaseNavigationController.m */,
+				568A784223F7BF2F003D9B44 /* YQHomeAnimateViewController.h */,
+				568A784323F7BF2F003D9B44 /* YQHomeAnimateViewController.m */,
+				568A783123F153B5003D9B44 /* YQHomeBaseViewController.h */,
+				568A783223F153B5003D9B44 /* YQHomeBaseViewController.m */,
+				568A784523FB8BE5003D9B44 /* YQRoomPresentViewController.h */,
+				568A784623FB8BE5003D9B44 /* YQRoomPresentViewController.m */,
+				568A784E23FCE83A003D9B44 /* 音视频采集 */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -180,9 +297,9 @@
 			isa = PBXGroup;
 			children = (
 				5669B768236550F1000F04EF /* Controllers */,
-				5669B766236550F1000F04EF /* Modals */,
-				5669B769236550F1000F04EF /* ViewModals */,
 				5669B767236550F1000F04EF /* Views */,
+				5669B769236550F1000F04EF /* ViewModals */,
+				5669B766236550F1000F04EF /* Modals */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -234,6 +351,18 @@
 		5669B766236550F1000F04EF /* Modals */ = {
 			isa = PBXGroup;
 			children = (
+				568A781B23EE62EF003D9B44 /* YQAnchorBaseModal.h */,
+				568A781C23EE62EF003D9B44 /* YQAnchorBaseModal.m */,
+				569B018323A5E7A8008D1223 /* YQAnchorGroup.h */,
+				569B018423A5E7A8008D1223 /* YQAnchorGroup.m */,
+				569B018623A625AA008D1223 /* YQAnchor.h */,
+				569B018723A625AA008D1223 /* YQAnchor.m */,
+				5689C8B823C02B0600E34D4D /* YQCycleModal.h */,
+				5689C8B923C02B0600E34D4D /* YQCycleModal.m */,
+				568A781823EE615B003D9B44 /* YQGameModal.h */,
+				568A781923EE615B003D9B44 /* YQGameModal.m */,
+				568A782B23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.h */,
+				568A782C23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.m */,
 			);
 			path = Modals;
 			sourceTree = "<group>";
@@ -241,6 +370,7 @@
 		5669B767236550F1000F04EF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				568A783423F24F07003D9B44 /* 娱乐菜单View */,
 				56A02DFF2376596A008B0413 /* YQHomeTopView.h */,
 				56A02E002376596A008B0413 /* YQHomeTopView.m */,
 				56A02E0223766C10008B0413 /* YQHomeContentView.h */,
@@ -248,6 +378,18 @@
 				565D42D42389233500AD848E /* YQCollectionHeaderView.h */,
 				565D42D52389233500AD848E /* YQCollectionHeaderView.m */,
 				565D42D62389233500AD848E /* YQCollectionHeaderView.xib */,
+				5689C8B023B84A1100E34D4D /* YQRecommentCycleView.h */,
+				5689C8B123B84A1100E34D4D /* YQRecommentCycleView.m */,
+				5689C8B323B84A3D00E34D4D /* YQRecommentCycleView.xib */,
+				5689C8BB23C0391E00E34D4D /* YQCycleViewCell.h */,
+				5689C8BC23C0391E00E34D4D /* YQCycleViewCell.m */,
+				5689C8BD23C0391E00E34D4D /* YQCycleViewCell.xib */,
+				5689C8C023C0D1AE00E34D4D /* YQRecommentHeaderGameView.h */,
+				5689C8C123C0D1AE00E34D4D /* YQRecommentHeaderGameView.m */,
+				5689C8C323C0D1BE00E34D4D /* YQRecommentHeaderGameView.xib */,
+				5689C8C523C0D2CA00E34D4D /* YQRecommentGameViewCell.h */,
+				5689C8C623C0D2CA00E34D4D /* YQRecommentGameViewCell.m */,
+				5689C8C723C0D2CA00E34D4D /* YQRecommentGameViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -273,6 +415,14 @@
 		5669B769236550F1000F04EF /* ViewModals */ = {
 			isa = PBXGroup;
 			children = (
+				569B017D23A5E047008D1223 /* YQRecommentViewModal.h */,
+				569B017E23A5E047008D1223 /* YQRecommentViewModal.m */,
+				568A781523EE5EFC003D9B44 /* YQGameViewModal.h */,
+				568A781623EE5EFC003D9B44 /* YQGameViewModal.m */,
+				568A782E23F1333A003D9B44 /* YQAmusementViewModal.h */,
+				568A782F23F1333A003D9B44 /* YQAmusementViewModal.m */,
+				568A783F23F7BA92003D9B44 /* YQFunnyViewModal.h */,
+				568A784023F7BA92003D9B44 /* YQFunnyViewModal.m */,
 			);
 			path = ViewModals;
 			sourceTree = "<group>";
@@ -370,6 +520,78 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5689C87623ADB5D200E34D4D /* LogStyle(控制台输出中文的分类) */ = {
+			isa = PBXGroup;
+			children = (
+				5689C88023ADC40300E34D4D /* NSArray+YQLog.h */,
+				5689C87D23ADC40300E34D4D /* NSArray+YQLog.m */,
+				5689C87E23ADC40300E34D4D /* NSDictionary+YQLog.h */,
+				5689C87F23ADC40300E34D4D /* NSDictionary+YQLog.m */,
+			);
+			path = "LogStyle(控制台输出中文的分类)";
+			sourceTree = "<group>";
+		};
+		568A781E23EEAC09003D9B44 /* 崩溃收集的两种方法 */ = {
+			isa = PBXGroup;
+			children = (
+				568A782023EEAC43003D9B44 /* 方法二(复杂) */,
+				568A781F23EEAC25003D9B44 /* 方法一(简单) */,
+			);
+			path = "崩溃收集的两种方法";
+			sourceTree = "<group>";
+		};
+		568A781F23EEAC25003D9B44 /* 方法一(简单) */ = {
+			isa = PBXGroup;
+			children = (
+				569B017A239B55BB008D1223 /* YQUncaughtExceptionHandler.h */,
+				569B017B239B55BB008D1223 /* YQUncaughtExceptionHandler.m */,
+			);
+			path = "方法一(简单)";
+			sourceTree = "<group>";
+		};
+		568A782023EEAC43003D9B44 /* 方法二(复杂) */ = {
+			isa = PBXGroup;
+			children = (
+				568A782123EEAC58003D9B44 /* ANEException */,
+			);
+			path = "方法二(复杂)";
+			sourceTree = "<group>";
+		};
+		568A782123EEAC58003D9B44 /* ANEException */ = {
+			isa = PBXGroup;
+			children = (
+				568A782223EEAC58003D9B44 /* ANEExceptionLogger.m */,
+				568A782323EEAC59003D9B44 /* UIDevice+Platform.m */,
+				568A782423EEAC59003D9B44 /* ANEException.m */,
+				568A782523EEAC59003D9B44 /* UIDevice+Platform.h */,
+				568A782623EEAC59003D9B44 /* ANEExceptionLogger.h */,
+				568A782723EEAC59003D9B44 /* ANEException.h */,
+			);
+			path = ANEException;
+			sourceTree = "<group>";
+		};
+		568A783423F24F07003D9B44 /* 娱乐菜单View */ = {
+			isa = PBXGroup;
+			children = (
+				568A783523F24F64003D9B44 /* YQAmuseMenuView.h */,
+				568A783623F24F64003D9B44 /* YQAmuseMenuView.m */,
+				568A783823F24F84003D9B44 /* YQAmuseMenuView.xib */,
+				568A783A23F257A7003D9B44 /* YQAmuseMenuViewCell.h */,
+				568A783B23F257A7003D9B44 /* YQAmuseMenuViewCell.m */,
+				568A783C23F257A7003D9B44 /* YQAmuseMenuViewCell.xib */,
+			);
+			path = "娱乐菜单View";
+			sourceTree = "<group>";
+		};
+		568A784E23FCE83A003D9B44 /* 音视频采集 */ = {
+			isa = PBXGroup;
+			children = (
+				568A784823FB8BF5003D9B44 /* YQRoomPushViewController.h */,
+				568A784923FB8BF5003D9B44 /* YQRoomPushViewController.m */,
+			);
+			path = "音视频采集";
+			sourceTree = "<group>";
+		};
 		56F8E5F723704D9800B704AE /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,6 +599,7 @@
 				56F8E5F823704DAD00B704AE /* Categorys */,
 				565D42E4238A245D00AD848E /* YQNetworkManager.h */,
 				565D42E5238A245D00AD848E /* YQNetworkManager.m */,
+				568A781E23EEAC09003D9B44 /* 崩溃收集的两种方法 */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -384,10 +607,16 @@
 		56F8E5F823704DAD00B704AE /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
+				5689C87623ADB5D200E34D4D /* LogStyle(控制台输出中文的分类) */,
 				56F8E5F923704DEA00B704AE /* UIBarButtonItem+Extension.h */,
 				56F8E5FA23704DEA00B704AE /* UIBarButtonItem+Extension.m */,
 				56A02E112377B1AB008B0413 /* UIColor+YQExtension.h */,
 				56A02E122377B1AB008B0413 /* UIColor+YQExtension.m */,
+				569B0178239B4E89008D1223 /* NSMutableArray+YQCrashExtection.m */,
+				569B018023A5E1E7008D1223 /* NSDate+YQExtension.h */,
+				569B018123A5E1E7008D1223 /* NSDate+YQExtension.m */,
+				5689C8B523B8F0EC00E34D4D /* UIView+YQExtension.h */,
+				5689C8B623B8F0EC00E34D4D /* UIView+YQExtension.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
@@ -398,6 +627,8 @@
 				56F8E5FD2371AB7D00B704AE /* YQConst.h */,
 				56F8E5FE2371AB7D00B704AE /* YQConst.m */,
 				56F8E6002371C28A00B704AE /* DouYuZhiBo_OC.pch */,
+				569B0170239688C4008D1223 /* Single.h */,
+				569B018C23A6448B008D1223 /* Macro.h */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -481,13 +712,19 @@
 				565D42E323892D3400AD848E /* YQPrettyCollectionViewCell.xib in Resources */,
 				5669B77C236E916C000F04EF /* HomeViewController.storyboard in Resources */,
 				5669B782236E92E5000F04EF /* ProfileViewController.storyboard in Resources */,
+				5689C8C923C0D2CA00E34D4D /* YQRecommentGameViewCell.xib in Resources */,
+				5689C8C423C0D1BE00E34D4D /* YQRecommentHeaderGameView.xib in Resources */,
 				5669B75623654AB8000F04EF /* LaunchScreen.storyboard in Resources */,
 				5669B780236E9276000F04EF /* FollowViewController.storyboard in Resources */,
+				568A783923F24F84003D9B44 /* YQAmuseMenuView.xib in Resources */,
 				565D42DE238927CF00AD848E /* YQNormalCollectionViewCell.xib in Resources */,
 				5669B75323654AB8000F04EF /* Assets.xcassets in Resources */,
 				565D42D82389233500AD848E /* YQCollectionHeaderView.xib in Resources */,
 				5669B77E236E91AA000F04EF /* LiveViewController.storyboard in Resources */,
+				5689C8BF23C0391E00E34D4D /* YQCycleViewCell.xib in Resources */,
+				568A783E23F257A7003D9B44 /* YQAmuseMenuViewCell.xib in Resources */,
 				5669B77A236E76FF000F04EF /* MainViewController.storyboard in Resources */,
+				5689C8B423B84A3D00E34D4D /* YQRecommentCycleView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,25 +760,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5689C8C223C0D1AE00E34D4D /* YQRecommentHeaderGameView.m in Sources */,
+				568A783723F24F64003D9B44 /* YQAmuseMenuView.m in Sources */,
 				56A02E0D2377AAB8008B0413 /* YQAmusementViewController.m in Sources */,
+				5689C88123ADC40300E34D4D /* NSArray+YQLog.m in Sources */,
 				5669B74823654AB7000F04EF /* AppDelegate.m in Sources */,
 				5669B75923654AB8000F04EF /* main.m in Sources */,
+				568A782823EEAC59003D9B44 /* ANEExceptionLogger.m in Sources */,
+				568A782A23EEAC59003D9B44 /* ANEException.m in Sources */,
+				568A781A23EE615B003D9B44 /* YQGameModal.m in Sources */,
+				568A782D23EEAD69003D9B44 /* YQHeaderGameDataModalSingle.m in Sources */,
+				569B017F23A5E047008D1223 /* YQRecommentViewModal.m in Sources */,
 				565D42D72389233500AD848E /* YQCollectionHeaderView.m in Sources */,
 				5669B788236E93B2000F04EF /* FollowViewController.m in Sources */,
 				565D42E223892D3400AD848E /* YQPrettyCollectionViewCell.m in Sources */,
+				568A784123F7BA92003D9B44 /* YQFunnyViewModal.m in Sources */,
 				56A02E102377AAC5008B0413 /* YQFunnyViewController.m in Sources */,
+				568A782923EEAC59003D9B44 /* UIDevice+Platform.m in Sources */,
 				5669B778236551A1000F04EF /* MainViewController.m in Sources */,
 				565D42DC238927B100AD848E /* YQNormalCollectionViewCell.m in Sources */,
 				56F8E5FB23704DEA00B704AE /* UIBarButtonItem+Extension.m in Sources */,
+				568A784723FB8BE5003D9B44 /* YQRoomPresentViewController.m in Sources */,
+				5689C8C823C0D2CA00E34D4D /* YQRecommentGameViewCell.m in Sources */,
 				56A02E012376596A008B0413 /* YQHomeTopView.m in Sources */,
 				56F8E5FF2371AB7D00B704AE /* YQConst.m in Sources */,
+				568A781723EE5EFC003D9B44 /* YQGameViewModal.m in Sources */,
+				5689C8B223B84A1100E34D4D /* YQRecommentCycleView.m in Sources */,
+				568A784423F7BF2F003D9B44 /* YQHomeAnimateViewController.m in Sources */,
+				568A784A23FB8BF5003D9B44 /* YQRoomPushViewController.m in Sources */,
+				568A783023F1333A003D9B44 /* YQAmusementViewModal.m in Sources */,
+				568A783D23F257A7003D9B44 /* YQAmuseMenuViewCell.m in Sources */,
 				56A02E0A2377AA6F008B0413 /* YQGameViewController.m in Sources */,
+				5689C8BA23C02B0600E34D4D /* YQCycleModal.m in Sources */,
+				568A783323F153B5003D9B44 /* YQHomeBaseViewController.m in Sources */,
 				56A02E0423766C10008B0413 /* YQHomeContentView.m in Sources */,
 				5669B78B236E942B000F04EF /* ProfileViewController.m in Sources */,
+				5689C88223ADC40300E34D4D /* NSDictionary+YQLog.m in Sources */,
+				569B018523A5E7A8008D1223 /* YQAnchorGroup.m in Sources */,
+				568A784D23FB99CA003D9B44 /* YQBaseNavigationController.m in Sources */,
+				569B018223A5E1E7008D1223 /* NSDate+YQExtension.m in Sources */,
+				569B018B23A641EF008D1223 /* YQCollectionBaseCell.m in Sources */,
 				56A02E072377AA51008B0413 /* YQRecommentViewController.m in Sources */,
 				565D42E6238A245D00AD848E /* YQNetworkManager.m in Sources */,
+				568A781D23EE62EF003D9B44 /* YQAnchorBaseModal.m in Sources */,
+				5689C8BE23C0391E00E34D4D /* YQCycleViewCell.m in Sources */,
+				569B017C239B55BB008D1223 /* YQUncaughtExceptionHandler.m in Sources */,
+				5689C8B723B8F0EC00E34D4D /* UIView+YQExtension.m in Sources */,
 				5669B785236E9372000F04EF /* HomeViewController.m in Sources */,
+				569B0179239B4E89008D1223 /* NSMutableArray+YQCrashExtection.m in Sources */,
 				5669B78E236E9460000F04EF /* LiveViewController.m in Sources */,
+				569B018823A625AA008D1223 /* YQAnchor.m in Sources */,
 				56A02E132377B1AB008B0413 /* UIColor+YQExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -681,7 +949,7 @@
 				DEVELOPMENT_TEAM = 648N73SCMH;
 				GCC_PREFIX_HEADER = DouYuZhiBo_OC/Classes/Tools/Common/DouYuZhiBo_OC.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/DouYuZhiBo_OC/Classes/Others/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -704,7 +972,7 @@
 				DEVELOPMENT_TEAM = 648N73SCMH;
 				GCC_PREFIX_HEADER = DouYuZhiBo_OC/Classes/Tools/Common/DouYuZhiBo_OC.pch;
 				INFOPLIST_FILE = "$(SRCROOT)/DouYuZhiBo_OC/Classes/Others/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

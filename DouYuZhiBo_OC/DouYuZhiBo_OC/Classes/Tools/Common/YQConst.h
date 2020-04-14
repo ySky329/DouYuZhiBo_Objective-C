@@ -56,7 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
 #define BOTTOM_SAFE_AREA_HEIHGT (IS_FULLSCREEN ? 34 : 0)
 
 static inline CGFloat YQAdapter(CGFloat x) {
-    // 屏幕宽度按比较适配
+    // 屏幕宽度按比例适配
     CGFloat scale = SCREEN_WIDTH / BASE_SIZE;
     return x * scale;
 }

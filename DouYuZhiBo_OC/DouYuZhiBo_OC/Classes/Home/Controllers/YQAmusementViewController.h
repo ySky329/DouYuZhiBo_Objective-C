@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YQHomeBaseViewController.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YQAmusementViewController : UIViewController
+@interface YQAmusementViewController : YQHomeBaseViewController
 
 @end
 

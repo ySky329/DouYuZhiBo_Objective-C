@@ -8,6 +8,18 @@
 
 #import "YQNormalCollectionViewCell.h"
 
+@interface YQNormalCollectionViewCell()
+
+@property (weak, nonatomic) IBOutlet UILabel *roomNameLabel;
+
+
+@end
+
 @implementation YQNormalCollectionViewCell
+
+- (void)setAnchor:(YQAnchor *)anchor {
+    [super setAnchor:anchor];
+    self.roomNameLabel.text = anchor.room_name;
+}
 
 @end

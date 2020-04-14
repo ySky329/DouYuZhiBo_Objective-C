@@ -68,6 +68,12 @@
             <nil key="simulatedBottomBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="iconImageView" destination="uKt-qx-lRI" id="xRw-Xa-eHe"/>
+                <outlet property="nickNameLabel" destination="kPF-Gr-c2k" id="ezh-oZ-NCR"/>
+                <outlet property="onlineBtn" destination="8sk-JE-D9H" id="5gd-U4-n6h"/>
+                <outlet property="roomNameLabel" destination="kLO-FP-68b" id="ySs-CN-B8F"/>
+            </connections>
             <point key="canvasLocation" x="-19.565217391304348" y="15.066964285714285"/>
         </view>
     </objects>

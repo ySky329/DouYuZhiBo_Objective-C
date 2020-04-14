@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="YQRecommentGameViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="90"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="英雄联盟" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lxr-w9-frt">
+                        <rect key="frame" x="13" y="63.5" width="54" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home_more_btn" translatesAutoresizingMaskIntoConstraints="NO" id="5Nu-EH-ugc">
+                        <rect key="frame" x="17.5" y="10.5" width="45" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="45" id="1hs-fh-Kqq"/>
+                            <constraint firstAttribute="height" constant="45" id="sJi-7F-eNs"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PIz-69-8h3">
+                        <rect key="frame" x="0.0" y="90" width="80" height="1"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Y7O-gy-LQ2"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="lxr-w9-frt" firstAttribute="top" secondItem="5Nu-EH-ugc" secondAttribute="bottom" constant="8" id="2rr-dh-TBT"/>
+                <constraint firstAttribute="bottom" secondItem="PIz-69-8h3" secondAttribute="bottom" constant="-1" id="9cc-zU-Acf"/>
+                <constraint firstItem="5Nu-EH-ugc" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-12" id="I1u-Ik-KSs"/>
+                <constraint firstItem="5Nu-EH-ugc" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="SRc-0d-jwZ"/>
+                <constraint firstAttribute="trailing" secondItem="PIz-69-8h3" secondAttribute="trailing" id="Ue6-0T-gnc"/>
+                <constraint firstItem="PIz-69-8h3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="XWi-0a-NlF"/>
+                <constraint firstItem="lxr-w9-frt" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="cDz-XS-HXE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <connections>
+                <outlet property="imageView" destination="5Nu-EH-ugc" id="eZc-yH-GrD"/>
+                <outlet property="titleLabel" destination="lxr-w9-frt" id="TvO-eK-AEK"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="137"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="home_more_btn" width="44" height="44"/>
+    </resources>
+</document>

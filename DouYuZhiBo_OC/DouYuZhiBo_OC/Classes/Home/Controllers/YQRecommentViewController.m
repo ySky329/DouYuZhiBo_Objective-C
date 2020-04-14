@@ -7,24 +7,24 @@
 //
 
 #import "YQRecommentViewController.h"
+#import "YQRecommentViewModal.h"
+#import "YQAnchor.h"
+#import "YQAnchorGroup.h"
 #import "YQCollectionHeaderView.h"
-#import "YQNormalCollectionViewCell.h"
-#import "YQPrettyCollectionViewCell.h"
+#import "YQCollectionBaseCell.h"
+#import "YQRecommentCycleView.h"
+#import "YQCycleModal.h"
+#import "YQRecommentHeaderGameView.h"
+#import "YQHeaderGameDataModalSingle.h"
 
-#define MARGIN 10
-#define ROW_NUM 2
-#define ITEM_WIDTH (SCREEN_WIDTH - MARGIN * (ROW_NUM + 1)) / ROW_NUM
-#define NORMAL_HEIGHT ITEM_WIDTH * 3 / 4
-#define PERTTY_HEIGHT ITEM_WIDTH * 4 / 3
-#define COLLECTIONVIEW_HEADER_HEIGHT 50
 
-static NSString *normalColletionViewCellIdentifier = @"normalColletionViewCellIdentifier";
-static NSString *prettyColletionViewCellIdentifier = @"prettyColletionViewCellIdentifier";
-static NSString *collectionViewHeaderIndentifier = @"collectionViewHeaderIndentifier";
+#define CYCLEVIEW_HEIGHT SCREEN_WIDTH * 3 / 8
 
-@interface YQRecommentViewController ()<UICollectionViewDelegateFlowLayout, UICollectionViewDataSource>
 
-@property(nonatomic, strong) UICollectionView * collectionView;
+@interface YQRecommentViewController ()<UICollectionViewDelegateFlowLayout>
+
+@property(nonatomic, strong) YQRecommentCycleView * cycleView;
+@property(nonatomic, strong) YQRecommentHeaderGameView * headerGameView;
 
 @end
 
@@ -33,65 +33,62 @@ static NSString *collectionViewHeaderIndentifier = @"collectionViewHeaderIndenti
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+        
+    self.collectionView.contentInset = UIEdgeInsetsMake(CYCLEVIEW_HEIGHT + HEADERGAMEVIEW_HEIGHT, 0, 0, 0);
+    [self.collectionView addSubview:self.cycleView];
+    [self.collectionView addSubview:self.headerGameView];
     
-    self.automaticallyAdjustsScrollViewInsets = NO;
+}
+
+- (void)loadData {
+    [super loadData];
+    [YQRecommentViewModal requestDataWithFinishBlock:^(NSArray * _Nonnull resultArr) {
+        self.anchorGroupArray = resultArr;
+        [self.collectionView reloadData];
+        self.headerGameView.anchorGroups = [NSMutableArray arrayWithArray:resultArr];
+        [YQHeaderGameDataModalSingle shareHeaderGameDataModal].anchorGroups = [NSMutableArray arrayWithArray:resultArr];
+        
+        [self stopAnimate];
+        self.collectionView.hidden = NO;
+
+    }];
     
-    [self.view addSubview:self.collectionView];
+    [YQRecommentViewModal requestCycleDataWithFinishBlock:^(NSArray * _Nonnull resultArray) {
+        self.cycleView.cycleModals = resultArray;
+    }];
 }
 
-- (UICollectionView *)collectionView {
-    if (!_collectionView) {
-        UICollectionViewFlowLayout * flowLayout = [[UICollectionViewFlowLayout alloc] init];
-        flowLayout.itemSize = CGSizeMake(ITEM_WIDTH, NORMAL_HEIGHT);
-        flowLayout.minimumLineSpacing = 0;
-        flowLayout.minimumInteritemSpacing = MARGIN;
-        flowLayout.headerReferenceSize = CGSizeMake(SCREEN_WIDTH, COLLECTIONVIEW_HEADER_HEIGHT);
-        
-        flowLayout.sectionInset = UIEdgeInsetsMake(0, MARGIN, 0, MARGIN);
-        
-        _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:flowLayout];
-        
-        [_collectionView registerNib:[UINib nibWithNibName:@"YQNormalCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:normalColletionViewCellIdentifier];
-        [_collectionView registerNib:[UINib nibWithNibName:@"YQPrettyCollectionViewCell" bundle:nil] forCellWithReuseIdentifier:prettyColletionViewCellIdentifier];
-        [_collectionView registerNib:[UINib nibWithNibName:@"YQCollectionHeaderView" bundle:nil] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:collectionViewHeaderIndentifier];
-        
-        _collectionView.delegate = self;
-        _collectionView.dataSource = self;
-        _collectionView.backgroundColor = [UIColor whiteColor];
-        
-         // 设置UICollectionView 随着父控件的拉伸而拉伸, 随着父控件的缩小而缩小
-        _collectionView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+#pragma mark --懒加载
+
+- (YQRecommentCycleView *)cycleView {
+    if (_cycleView == nil) {
+        _cycleView = [YQRecommentCycleView recommentCycleView];
+        _cycleView.frame = CGRectMake(0, -(CYCLEVIEW_HEIGHT + HEADERGAMEVIEW_HEIGHT), SCREEN_WIDTH, CYCLEVIEW_HEIGHT);
     }
-    return _collectionView;
+    return _cycleView;
 }
 
-#pragma mark --UICollectionViewDataSource
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {
-    return 12;
-}
-
-- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    if (section == 0) {
-        return 8;
+- (YQRecommentHeaderGameView *)headerGameView {
+    if (_headerGameView == nil) {
+        _headerGameView = [YQRecommentHeaderGameView recommentHeaderGameView];
+        _headerGameView.frame = CGRectMake(0, -HEADERGAMEVIEW_HEIGHT, SCREEN_WIDTH, HEADERGAMEVIEW_HEIGHT);
     }
-    return 4;
+    return _headerGameView;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell;
+    YQAnchorGroup * group = self.anchorGroupArray[indexPath.section];
+    YQCollectionBaseCell * cell = nil;
+    
     if (indexPath.section == 1) {
         cell = [collectionView dequeueReusableCellWithReuseIdentifier:prettyColletionViewCellIdentifier forIndexPath:indexPath];
     } else {
         cell = [collectionView dequeueReusableCellWithReuseIdentifier:normalColletionViewCellIdentifier forIndexPath:indexPath];
     }
+    
+    cell.anchor = group.anchors[indexPath.item];
     return cell;
 }
-
-- (UICollectionReusableView *)collectionView:(UICollectionView *)collectionView viewForSupplementaryElementOfKind:(NSString *)kind atIndexPath:(NSIndexPath *)indexPath {
-    UICollectionReusableView * reusableView = [collectionView dequeueReusableSupplementaryViewOfKind:kind withReuseIdentifier:collectionViewHeaderIndentifier forIndexPath:indexPath];
-    return reusableView;
-}
-
 - (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
     if (indexPath.section == 1) {
         return CGSizeMake(ITEM_WIDTH, PERTTY_HEIGHT);

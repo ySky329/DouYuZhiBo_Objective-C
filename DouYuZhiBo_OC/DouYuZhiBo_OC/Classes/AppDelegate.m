@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainViewController.h"
+#import "YQUncaughtExceptionHandler.h"
 
 @interface AppDelegate ()
 
@@ -22,12 +23,14 @@
     UIStoryboard * homeStoryboard = [UIStoryboard storyboardWithName:@"MainViewController" bundle:nil];
     MainViewController * homeVC =  [homeStoryboard instantiateInitialViewController];
     
-//    HomeViewController * homeVC = [[HomeViewController alloc] init];
     self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
     
+    [YQUncaughtExceptionHandler setDefaultHandler];
+    
     return YES;
 }
+
 
 
 @end

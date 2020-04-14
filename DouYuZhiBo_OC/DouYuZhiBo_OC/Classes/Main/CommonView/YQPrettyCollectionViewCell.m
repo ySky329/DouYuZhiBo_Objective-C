@@ -8,11 +8,17 @@
 
 #import "YQPrettyCollectionViewCell.h"
 
+@interface YQPrettyCollectionViewCell()
+
+@property (weak, nonatomic) IBOutlet UIButton *cityBtn;
+
+@end
+
 @implementation YQPrettyCollectionViewCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (void)setAnchor:(YQAnchor *)anchor {
+    [super setAnchor:anchor];
+    [self.cityBtn setTitle:anchor.anchor_city forState:UIControlStateNormal];
 }
 
 @end

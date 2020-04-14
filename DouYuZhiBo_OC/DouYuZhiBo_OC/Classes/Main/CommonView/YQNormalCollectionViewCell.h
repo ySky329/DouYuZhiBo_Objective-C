@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "YQCollectionBaseCell.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YQNormalCollectionViewCell : UICollectionViewCell
+@interface YQNormalCollectionViewCell : YQCollectionBaseCell
 
 @end
 

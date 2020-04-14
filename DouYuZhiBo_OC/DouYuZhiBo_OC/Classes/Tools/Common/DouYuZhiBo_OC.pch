@@ -12,6 +12,8 @@
 #import "YQConst.h"
 #import "UIBarButtonItem+Extension.h"
 #import "UIColor+YQExtension.h"
+#import "Single.h"
+#import "Macro.h"
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.

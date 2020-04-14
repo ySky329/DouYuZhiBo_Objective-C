@@ -46,7 +46,6 @@ static NSString * kCollectionIdentifier = @"kCollectionIdentifier";
     if (self = [super initWithFrame:frame]) {
         self.childControllArray = childControlls;
         for (UIViewController * vc in childControlls) {
-            vc.view.backgroundColor = [UIColor randomColor];
             [parent addChildViewController:vc];
         }
         
